@@ -1,0 +1,70 @@
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.breadcrumb {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+font-weight: 700;
+line-height: 36.72px;
+letter-spacing: 0.18358485400676727px;
+text-align: left;
+
+}
+span{
+  color:#7f00ff;
+}
+
+.heading{
+  display: flex;
+  flex-direction: row;
+}
+.back{
+  cursor: pointer;
+}
+
+.btn-edit button{
+   height: 40px;
+   width: 100px;
+   font-size: 20px;
+   transform: translate(1000px,-70px);
+
+}
+.btn-save{
+  transform: translate(800px,-70px);
+}
+
+.btn-discard{
+  height: 40px;
+   width: 100px;
+   font-size: 20px;
+}
+.btn-saved{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  margin-left: 9px;
+}
+
+.card-element{
+  width: 1300px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.card-element h1{
+  font-size: 30px;
+  color: #7f00ff;
+}
+
+textarea{
+  height: 90%;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  padding: 10px
+}

@@ -1,0 +1,41 @@
+.file-upload {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  height: 400px;
+}
+
+.type {
+  color: #666;
+font-size: 30.33px;
+font-weight: 400;
+line-height: 35.55px;
+text-align: center;
+
+
+}
+
+.file-formats {
+  color: #999;
+  margin-bottom: 20px;
+  
+font-size: 24px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: center;
+
+}
+
+.select-file-btn {
+  background-color:#fff; 
+  color: #7f00ff;
+  border:solid 2px #7f00ff;
+  padding: 10px 20px;
+  border-radius:25px;
+  cursor: pointer;
+  font-size: 16px;
+  transform: translate(-1px,-30px);
+  width: 190px;
+}

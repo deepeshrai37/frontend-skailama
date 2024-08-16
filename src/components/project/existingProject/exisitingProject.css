@@ -1,0 +1,42 @@
+.navbar{
+  padding: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-items{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap:1000px
+}
+
+.content h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 56.25px;
+text-align: left;
+transform: translate(80px,80px);
+color: #7E22CE;
+
+
+}
+
+
+
+.btn-items{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.project-list{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

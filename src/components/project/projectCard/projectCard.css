@@ -1,0 +1,51 @@
+.project-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 20%;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-icon {
+  background-color: #f9a825; /* Orange background */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.project-details {
+  flex: 1;
+}
+
+.project-name {
+  color: #6a1b9a; /* Purple color */
+  font-size: 18px;
+  margin: 0;
+}
+
+.project-episodes {
+  color: gray;
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+
+.project-updated {
+  color: lightgray;
+  font-size: 12px;
+  margin: 5px 0 0;
+}

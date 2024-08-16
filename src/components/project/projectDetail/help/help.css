@@ -1,0 +1,92 @@
+.account-settings {
+  margin-top: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic img {
+  width: 151px;
+  height: 151px;
+  border-radius: 50%;
+}
+
+.user-details {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px;
+}
+
+.input-group label {
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.logout{
+  transform: translateX(850px);
+}
+.logo-logout{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.subscriptions {
+  margin-top: 40px;
+}
+
+.subscriptions h2 {
+  margin-bottom: 20px;
+}
+
+.subscription-card {
+  background: linear-gradient(90deg, rgba(189,147,249,1) 0%, rgba(255,255,255,1) 100%);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  height: 160px;
+}
+
+.subscription-card p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+.subscription-card a {
+  color: #800080;
+  text-decoration: none;
+}
+
+.upgrade-button {
+  padding: 10px 20px;
+  background-color: #800080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translateX(-30px);
+}
+
+.upgrade-button:hover {
+  background-color: #5e005e;
+}

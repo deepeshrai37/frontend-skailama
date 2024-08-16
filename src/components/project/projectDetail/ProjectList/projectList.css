@@ -1,0 +1,82 @@
+.project-list-container {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 1300px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.project-list-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.table-wrapper {
+  width: 100%;
+  height: calc(100% - 40px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+thead th,td{
+  line-height: 2.2rem;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 2px;
+}
+
+th, td {
+  width: 25%;
+  text-align: left;
+  padding: 2px 6px; 
+  line-height: 0.2em; 
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+th {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  font-weight: normal;
+  padding: 2px 6px;
+}
+
+td {
+  vertical-align:middle;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  transform: translate(-60px);
+}
+
+.view-btn, .delete-btn, .share-btn {
+  margin-right: 5px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  cursor: pointer;
+  border: none;
+  height:30px;
+  width: 70px;
+}
+
+.view-btn {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+
+.delete-btn {
+  color: #d9534f;
+  background-color: transparent;
+}
